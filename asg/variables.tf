@@ -1,0 +1,9 @@
+variable "name" {}
+variable "ami_id" {}
+variable "instance_type" {}
+variable "security_groups" {}
+variable "desired_capacity" {}
+variable "min_size" {}
+variable "max_size" {}
+variable "subnets" {}
+variable "target_group_arn" {}
