@@ -211,7 +211,7 @@ Example:
 alb_dns_name = "my-alb-123456789.us-east-1.elb.amazonaws.com"
 website_url  = "http://www.example.com" # This will be your actual domain
 ```
-9. Teardown
+## 9. Teardown
 To destroy all the AWS resources provisioned by this Terraform configuration, run the following command:
 
 ```bash
@@ -220,28 +220,33 @@ terraform destroy
 
 Review the proposed destruction plan and type yes when prompted to confirm. Be extremely cautious with this command, as it will permanently delete all resources and data.
 
-10. Future Enhancements
-Database Integration: Add a managed database service like RDS (Relational Database Service) for data persistence.
-HTTPS/SSL: Implement SSL/TLS certificates using AWS Certificate Manager (ACM) and configure HTTPS listeners on the ALB.
-Monitoring & Logging: Integrate with AWS CloudWatch for metrics and logs, and potentially implement centralized logging solutions (e.g., ELK stack).
-WAF (Web Application Firewall): Protect the application from common web exploits.
-Private Subnets: Introduce private subnets for database instances and other backend services, and use NAT Gateways for outbound internet access from private subnets.
-Blue/Green Deployments: Enhance the CI/CD pipeline for advanced deployment strategies.
-Environment Variables: Externalize application-specific environment variables for better management.
-Cost Optimization: Implement EC2 Spot Instances for non-critical workloads, or explore Graviton instances.
-Terraform Cloud/Atlantis: Integrate with a remote state management and collaboration tool for team environments.
-Custom AMI: Use a custom AMI pre-configured with your application dependencies to speed up instance launch times.
-11. Contributing
+## 10. Future Enhancements
+* **Database Integration**: Add a managed database service like RDS (Relational Database Service) for data persistence.
+* **HTTPS/SSL**: Implement SSL/TLS certificates using AWS Certificate Manager (ACM) and configure HTTPS listeners on the ALB.
+* **Monitoring & Logging**: Integrate with AWS CloudWatch for metrics and logs, and potentially implement centralized logging solutions (e.g., ELK stack).
+* **WAF (Web Application Firewall)**: Protect the application from common web exploits.
+* **Private Subnets**: Introduce private subnets for database instances and other backend services, and use NAT Gateways for outbound internet access from private subnets.
+* **Blue/Green Deployments**: Enhance the CI/CD pipeline for advanced deployment strategies.
+* **Environment Variables**: Externalize application-specific environment variables for better management.
+* **Cost Optimization**: Implement EC2 Spot Instances for non-critical workloads, or explore Graviton instances.
+* **Terraform Cloud/Atlantis**: Integrate with a remote state management and collaboration tool for team environments.
+* **Custom AMI**: Use a custom AMI pre-configured with your application dependencies to speed up instance launch times.
+
+## 11. Contributing
 Feel free to fork this repository, open issues, or submit pull requests. Contributions are welcome!
 
-12. License
+## 12. License
 This project is open-source and available under the MIT License.
 
-13. Author |
-Aditya Ranjan |
-DevOps Engineer | Automation Enthusiast |
+## 13. Author 
+Aditya Ranjan 
+
+DevOps Engineer | Automation Enthusiast 
+
 [🔗 LinkedIn](https://www.linkedin.com/in/adityar947/)
+
 [🔗 GitHub Profile](https://github.com/adityar947)
+
 
 ### Suggestions for Improvement:
 
