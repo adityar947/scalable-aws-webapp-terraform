@@ -166,7 +166,7 @@ Follow these steps to deploy the infrastructure:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/adityar947/scalable-aws-webapp-terraform.git](https://github.com/adityar947/scalable-aws-webapp-terraform.git)
+    git clone https://github.com/adityar947/scalable-aws-webapp-terraform.git
     cd scalable-aws-webapp-terraform
     ```
 
